@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="T.S_StartPage_WEB" time="41" tests="5" failures="0" errors="0">
+   <testsuite name="T.S_StartPage_WEB" tests="5" failures="0" errors="0" time="41" timestamp="2019-05-13 21:48:09" hostname="alejo - DESKTOP-6V3HL1C" id="Test Suites/T.S_StartPage_WEB">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Katalon projects\\KatalonVeryxWEB\\Reports\\T.S_StartPage_WEB\\20190513_214807"/>
+         <property name="logFiles" value="E:\\Katalon projects\\KatalonVeryxWEB\\Reports\\T.S_StartPage_WEB\\20190513_214807\\execution0.log"/>
+         <property name="attachments" value="E:\\Katalon projects\\KatalonVeryxWEB\\Reports\\T.S_StartPage_WEB\\20190513_214807\\Screenshots/StartPage/1024X768/Start-0.png, E:\\Katalon projects\\KatalonVeryxWEB\\Reports\\T.S_StartPage_WEB\\20190513_214807\\Screenshots/StartPage/1024X768/Start-1.png, E:\\Katalon projects\\KatalonVeryxWEB\\Reports\\T.S_StartPage_WEB\\20190513_214807\\Screenshots/StartPage/1024X768/Start-2.png, E:\\Katalon projects\\KatalonVeryxWEB\\Reports\\T.S_StartPage_WEB\\20190513_214807\\Screenshots/StartPage/1366X768/Start-0.png, E:\\Katalon projects\\KatalonVeryxWEB\\Reports\\T.S_StartPage_WEB\\20190513_214807\\Screenshots/StartPage/1366X768/Start-1.png, E:\\Katalon projects\\KatalonVeryxWEB\\Reports\\T.S_StartPage_WEB\\20190513_214807\\Screenshots/StartPage/1366X768/Start-2.png, E:\\Katalon projects\\KatalonVeryxWEB\\Reports\\T.S_StartPage_WEB\\20190513_214807\\Screenshots/StartPage/1440x900/Start-0.png, E:\\Katalon projects\\KatalonVeryxWEB\\Reports\\T.S_StartPage_WEB\\20190513_214807\\Screenshots/StartPage/1440x900/Start-1.png, E:\\Katalon projects\\KatalonVeryxWEB\\Reports\\T.S_StartPage_WEB\\20190513_214807\\Screenshots/StartPage/1600x900/Start-0.png, E:\\Katalon projects\\KatalonVeryxWEB\\Reports\\T.S_StartPage_WEB\\20190513_214807\\Screenshots/StartPage/1600x900/Start-1.png, E:\\Katalon projects\\KatalonVeryxWEB\\Reports\\T.S_StartPage_WEB\\20190513_214807\\Screenshots/StartPage/1920x1080/Start-0.png, E:\\Katalon projects\\KatalonVeryxWEB\\Reports\\T.S_StartPage_WEB\\20190513_214807\\Screenshots/StartPage/1920x1080/Start-1.png"/>
+         <property name="hostName" value="alejo - DESKTOP-6V3HL1C"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 74.0.3729.131"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="sessionId" value="219684700aba24078a7498c59488daa8"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/T.C_StartPage_1024x768_WEB" classname="Test Cases/T.C_StartPage_1024x768_WEB" status="PASSED">
+         <system-out><![CDATA[2019-05-13 21:48:09 - [TEST_CASE][PASSED] - Test Cases/T.C_StartPage_1024x768_WEB: Test Cases/T.C_StartPage_1024x768_WEB
+
+2019-05-13 21:48:10 - [TEST_STEP][PASSED] - n = 0: null
+
+2019-05-13 21:48:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-13 21:48:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-13 21:48:10 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-13 21:48:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-13 21:48:14 - [TEST_STEP][PASSED] - setViewPortSize(1024, 768): Viewport is set to new size with width = 1024 and height = 768
+
+2019-05-13 21:48:15 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1024 and height = 768
+
+2019-05-13 21:48:15 - [TEST_STEP][PASSED] - navigateToUrl("http://veryx-client-dev.azurewebsites.net/#/"): Navigate to 'http://veryx-client-dev.azurewebsites.net/#/' successfully
+
+2019-05-13 21:48:17 - [MESSAGE][PASSED] - Navigate to 'http://veryx-client-dev.azurewebsites.net/#/' successfully
+
+2019-05-13 21:48:17 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-05-13 21:48:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-13 21:48:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-05-13 21:48:17 - [TEST_STEP][PASSED] - setText(findTestObject("StartPage_OR/input_Correo Electrnico _email"), "alejos@mail.com"): Text 'alejos@mail.com' is set on object 'Object Repository/StartPage_OR/input_Correo Electrnico _email'
+
+2019-05-13 21:48:17 - [MESSAGE][PASSED] - Text 'alejos@mail.com' is set on object 'Object Repository/StartPage_OR/input_Correo Electrnico _email'
+
+2019-05-13 21:48:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("StartPage_OR/input_Contrasea _password"), "n3FO92K+dHdem137Wy3cYA=="): Text ****** has been set on object 'Object Repository/StartPage_OR/input_Contrasea _password'
+
+2019-05-13 21:48:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/StartPage_OR/input_Contrasea _password'
+
+2019-05-13 21:48:17 - [TEST_STEP][PASSED] - takeScreenshot("Screenshots/StartPage/1024X768/Start-" + n + ".png"): Taking screenshot successfully
+
+2019-05-13 21:48:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Katalon projects\\KatalonVeryxWEB\\Reports\\T.S_StartPage_WEB\\20190513_214807\\Screenshots/StartPage/1024X768/Start-0.png]]
+
+2019-05-13 21:48:18 - [TEST_STEP][PASSED] - (n++): null
+
+2019-05-13 21:48:18 - [TEST_STEP][PASSED] - scrollToPosition(0, 400): Browser is scrolled to position x = 0, y = 400
+
+2019-05-13 21:48:18 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 400
+
+2019-05-13 21:48:18 - [TEST_STEP][PASSED] - takeScreenshot("Screenshots/StartPage/1024X768/Start-" + n + ".png"): Taking screenshot successfully
+
+2019-05-13 21:48:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Katalon projects\\KatalonVeryxWEB\\Reports\\T.S_StartPage_WEB\\20190513_214807\\Screenshots/StartPage/1024X768/Start-1.png]]
+
+2019-05-13 21:48:18 - [TEST_STEP][PASSED] - (n++): null
+
+2019-05-13 21:48:18 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("StartPage_OR/p_2019 VERyx"), 0): Scroll to object 'Object Repository/StartPage_OR/p_2019 VERyx' successfully
+
+2019-05-13 21:48:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-13 21:48:19 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/StartPage_OR/p_2019 VERyx' successfully
+
+2019-05-13 21:48:19 - [TEST_STEP][PASSED] - takeScreenshot("Screenshots/StartPage/1024X768/Start-" + n + ".png"): Taking screenshot successfully
+
+2019-05-13 21:48:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Katalon projects\\KatalonVeryxWEB\\Reports\\T.S_StartPage_WEB\\20190513_214807\\Screenshots/StartPage/1024X768/Start-2.png]]
+
+2019-05-13 21:48:19 - [TEST_STEP][PASSED] - (n++): null
+
+2019-05-13 21:48:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-13 21:48:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/T.C_StartPage_1366x768_WEB" classname="Test Cases/T.C_StartPage_1366x768_WEB" status="PASSED">
+         <system-out><![CDATA[2019-05-13 21:48:20 - [TEST_CASE][PASSED] - Test Cases/T.C_StartPage_1366x768_WEB: Test Cases/T.C_StartPage_1366x768_WEB
+
+2019-05-13 21:48:20 - [TEST_STEP][PASSED] - n = 0: null
+
+2019-05-13 21:48:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-13 21:48:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-13 21:48:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-13 21:48:22 - [TEST_STEP][PASSED] - setViewPortSize(1366, 768): Viewport is set to new size with width = 1366 and height = 768
+
+2019-05-13 21:48:24 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1366 and height = 768
+
+2019-05-13 21:48:24 - [TEST_STEP][PASSED] - navigateToUrl("http://veryx-client-dev.azurewebsites.net/#/"): Navigate to 'http://veryx-client-dev.azurewebsites.net/#/' successfully
+
+2019-05-13 21:48:25 - [MESSAGE][PASSED] - Navigate to 'http://veryx-client-dev.azurewebsites.net/#/' successfully
+
+2019-05-13 21:48:25 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-05-13 21:48:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-13 21:48:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-05-13 21:48:25 - [TEST_STEP][PASSED] - setText(findTestObject("StartPage_OR/input_Correo Electrnico _email"), "alejos@mail.com"): Text 'alejos@mail.com' is set on object 'Object Repository/StartPage_OR/input_Correo Electrnico _email'
+
+2019-05-13 21:48:26 - [MESSAGE][PASSED] - Text 'alejos@mail.com' is set on object 'Object Repository/StartPage_OR/input_Correo Electrnico _email'
+
+2019-05-13 21:48:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("StartPage_OR/input_Contrasea _password"), "n3FO92K+dHdem137Wy3cYA=="): Text ****** has been set on object 'Object Repository/StartPage_OR/input_Contrasea _password'
+
+2019-05-13 21:48:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/StartPage_OR/input_Contrasea _password'
+
+2019-05-13 21:48:26 - [TEST_STEP][PASSED] - takeScreenshot("Screenshots/StartPage/1366X768/Start-" + n + ".png"): Taking screenshot successfully
+
+2019-05-13 21:48:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Katalon projects\\KatalonVeryxWEB\\Reports\\T.S_StartPage_WEB\\20190513_214807\\Screenshots/StartPage/1366X768/Start-0.png]]
+
+2019-05-13 21:48:26 - [TEST_STEP][PASSED] - (n++): null
+
+2019-05-13 21:48:26 - [TEST_STEP][PASSED] - scrollToPosition(0, 400): Browser is scrolled to position x = 0, y = 400
+
+2019-05-13 21:48:26 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 400
+
+2019-05-13 21:48:26 - [TEST_STEP][PASSED] - takeScreenshot("Screenshots/StartPage/1366X768/Start-" + n + ".png"): Taking screenshot successfully
+
+2019-05-13 21:48:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Katalon projects\\KatalonVeryxWEB\\Reports\\T.S_StartPage_WEB\\20190513_214807\\Screenshots/StartPage/1366X768/Start-1.png]]
+
+2019-05-13 21:48:27 - [TEST_STEP][PASSED] - (n++): null
+
+2019-05-13 21:48:27 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("StartPage_OR/p_2019 VERyx"), 0): Scroll to object 'Object Repository/StartPage_OR/p_2019 VERyx' successfully
+
+2019-05-13 21:48:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-13 21:48:27 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/StartPage_OR/p_2019 VERyx' successfully
+
+2019-05-13 21:48:27 - [TEST_STEP][PASSED] - takeScreenshot("Screenshots/StartPage/1366X768/Start-" + n + ".png"): Taking screenshot successfully
+
+2019-05-13 21:48:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Katalon projects\\KatalonVeryxWEB\\Reports\\T.S_StartPage_WEB\\20190513_214807\\Screenshots/StartPage/1366X768/Start-2.png]]
+
+2019-05-13 21:48:27 - [TEST_STEP][PASSED] - (n++): null
+
+2019-05-13 21:48:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-13 21:48:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/T.C_StartPage_1440x900_WEB" classname="Test Cases/T.C_StartPage_1440x900_WEB" status="PASSED">
+         <system-out><![CDATA[2019-05-13 21:48:28 - [TEST_CASE][PASSED] - Test Cases/T.C_StartPage_1440x900_WEB: Test Cases/T.C_StartPage_1440x900_WEB
+
+2019-05-13 21:48:28 - [TEST_STEP][PASSED] - n = 0: null
+
+2019-05-13 21:48:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-13 21:48:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-13 21:48:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-13 21:48:30 - [TEST_STEP][PASSED] - setViewPortSize(1440, 900): Viewport is set to new size with width = 1440 and height = 900
+
+2019-05-13 21:48:31 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1440 and height = 900
+
+2019-05-13 21:48:31 - [TEST_STEP][PASSED] - navigateToUrl("http://veryx-client-dev.azurewebsites.net/#/"): Navigate to 'http://veryx-client-dev.azurewebsites.net/#/' successfully
+
+2019-05-13 21:48:33 - [MESSAGE][PASSED] - Navigate to 'http://veryx-client-dev.azurewebsites.net/#/' successfully
+
+2019-05-13 21:48:33 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-05-13 21:48:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-13 21:48:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-05-13 21:48:33 - [TEST_STEP][PASSED] - setText(findTestObject("StartPage_OR/input_Correo Electrnico _email"), "alejos@mail.com"): Text 'alejos@mail.com' is set on object 'Object Repository/StartPage_OR/input_Correo Electrnico _email'
+
+2019-05-13 21:48:33 - [MESSAGE][PASSED] - Text 'alejos@mail.com' is set on object 'Object Repository/StartPage_OR/input_Correo Electrnico _email'
+
+2019-05-13 21:48:33 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("StartPage_OR/input_Contrasea _password"), "n3FO92K+dHdem137Wy3cYA=="): Text ****** has been set on object 'Object Repository/StartPage_OR/input_Contrasea _password'
+
+2019-05-13 21:48:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/StartPage_OR/input_Contrasea _password'
+
+2019-05-13 21:48:33 - [TEST_STEP][PASSED] - takeScreenshot("Screenshots/StartPage/1440x900/Start-" + n + ".png"): Taking screenshot successfully
+
+2019-05-13 21:48:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Katalon projects\\KatalonVeryxWEB\\Reports\\T.S_StartPage_WEB\\20190513_214807\\Screenshots/StartPage/1440x900/Start-0.png]]
+
+2019-05-13 21:48:34 - [TEST_STEP][PASSED] - (n++): null
+
+2019-05-13 21:48:34 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("StartPage_OR/p_2019 VERyx"), 0): Scroll to object 'Object Repository/StartPage_OR/p_2019 VERyx' successfully
+
+2019-05-13 21:48:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-13 21:48:34 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/StartPage_OR/p_2019 VERyx' successfully
+
+2019-05-13 21:48:34 - [TEST_STEP][PASSED] - takeScreenshot("Screenshots/StartPage/1440x900/Start-" + n + ".png"): Taking screenshot successfully
+
+2019-05-13 21:48:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Katalon projects\\KatalonVeryxWEB\\Reports\\T.S_StartPage_WEB\\20190513_214807\\Screenshots/StartPage/1440x900/Start-1.png]]
+
+2019-05-13 21:48:35 - [TEST_STEP][PASSED] - (n++): null
+
+2019-05-13 21:48:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-13 21:48:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/T.C_StartPage_1600x900_WEB" classname="Test Cases/T.C_StartPage_1600x900_WEB" status="PASSED">
+         <system-out><![CDATA[2019-05-13 21:48:35 - [TEST_CASE][PASSED] - Test Cases/T.C_StartPage_1600x900_WEB: Test Cases/T.C_StartPage_1600x900_WEB
+
+2019-05-13 21:48:36 - [TEST_STEP][PASSED] - n = 0: null
+
+2019-05-13 21:48:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-13 21:48:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-13 21:48:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-13 21:48:38 - [TEST_STEP][PASSED] - setViewPortSize(1600, 900): Viewport is set to new size with width = 1600 and height = 900
+
+2019-05-13 21:48:39 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1600 and height = 900
+
+2019-05-13 21:48:39 - [TEST_STEP][PASSED] - navigateToUrl("http://veryx-client-dev.azurewebsites.net/#/"): Navigate to 'http://veryx-client-dev.azurewebsites.net/#/' successfully
+
+2019-05-13 21:48:41 - [MESSAGE][PASSED] - Navigate to 'http://veryx-client-dev.azurewebsites.net/#/' successfully
+
+2019-05-13 21:48:41 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-05-13 21:48:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-13 21:48:41 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-05-13 21:48:41 - [TEST_STEP][PASSED] - setText(findTestObject("StartPage_OR/input_Correo Electrnico _email"), "alejos@mail.com"): Text 'alejos@mail.com' is set on object 'Object Repository/StartPage_OR/input_Correo Electrnico _email'
+
+2019-05-13 21:48:41 - [MESSAGE][PASSED] - Text 'alejos@mail.com' is set on object 'Object Repository/StartPage_OR/input_Correo Electrnico _email'
+
+2019-05-13 21:48:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("StartPage_OR/input_Contrasea _password"), "n3FO92K+dHdem137Wy3cYA=="): Text ****** has been set on object 'Object Repository/StartPage_OR/input_Contrasea _password'
+
+2019-05-13 21:48:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/StartPage_OR/input_Contrasea _password'
+
+2019-05-13 21:48:41 - [TEST_STEP][PASSED] - takeScreenshot("Screenshots/StartPage/1600x900/Start-" + n + ".png"): Taking screenshot successfully
+
+2019-05-13 21:48:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Katalon projects\\KatalonVeryxWEB\\Reports\\T.S_StartPage_WEB\\20190513_214807\\Screenshots/StartPage/1600x900/Start-0.png]]
+
+2019-05-13 21:48:42 - [TEST_STEP][PASSED] - (n++): null
+
+2019-05-13 21:48:42 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("StartPage_OR/p_2019 VERyx"), 0): Scroll to object 'Object Repository/StartPage_OR/p_2019 VERyx' successfully
+
+2019-05-13 21:48:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-13 21:48:42 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/StartPage_OR/p_2019 VERyx' successfully
+
+2019-05-13 21:48:42 - [TEST_STEP][PASSED] - takeScreenshot("Screenshots/StartPage/1600x900/Start-" + n + ".png"): Taking screenshot successfully
+
+2019-05-13 21:48:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Katalon projects\\KatalonVeryxWEB\\Reports\\T.S_StartPage_WEB\\20190513_214807\\Screenshots/StartPage/1600x900/Start-1.png]]
+
+2019-05-13 21:48:42 - [TEST_STEP][PASSED] - (n++): null
+
+2019-05-13 21:48:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-13 21:48:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/T.C_StartPage_1920x1080_WEB" classname="Test Cases/T.C_StartPage_1920x1080_WEB" status="PASSED">
+         <system-out><![CDATA[2019-05-13 21:48:43 - [TEST_CASE][PASSED] - Test Cases/T.C_StartPage_1920x1080_WEB: Test Cases/T.C_StartPage_1920x1080_WEB
+
+2019-05-13 21:48:43 - [TEST_STEP][PASSED] - n = 0: null
+
+2019-05-13 21:48:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-13 21:48:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-13 21:48:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-13 21:48:46 - [TEST_STEP][PASSED] - setViewPortSize(1920, 1080): Viewport is set to new size with width = 1920 and height = 1080
+
+2019-05-13 21:48:47 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1920 and height = 1080
+
+2019-05-13 21:48:47 - [TEST_STEP][PASSED] - navigateToUrl("http://veryx-client-dev.azurewebsites.net/#/"): Navigate to 'http://veryx-client-dev.azurewebsites.net/#/' successfully
+
+2019-05-13 21:48:48 - [MESSAGE][PASSED] - Navigate to 'http://veryx-client-dev.azurewebsites.net/#/' successfully
+
+2019-05-13 21:48:48 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-05-13 21:48:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-13 21:48:48 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-05-13 21:48:48 - [TEST_STEP][PASSED] - setText(findTestObject("StartPage_OR/input_Correo Electrnico _email"), "alejos@mail.com"): Text 'alejos@mail.com' is set on object 'Object Repository/StartPage_OR/input_Correo Electrnico _email'
+
+2019-05-13 21:48:49 - [MESSAGE][PASSED] - Text 'alejos@mail.com' is set on object 'Object Repository/StartPage_OR/input_Correo Electrnico _email'
+
+2019-05-13 21:48:49 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("StartPage_OR/input_Contrasea _password"), "n3FO92K+dHdem137Wy3cYA=="): Text ****** has been set on object 'Object Repository/StartPage_OR/input_Contrasea _password'
+
+2019-05-13 21:48:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/StartPage_OR/input_Contrasea _password'
+
+2019-05-13 21:48:49 - [TEST_STEP][PASSED] - takeScreenshot("Screenshots/StartPage/1920x1080/Start-" + n + ".png"): Taking screenshot successfully
+
+2019-05-13 21:48:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Katalon projects\\KatalonVeryxWEB\\Reports\\T.S_StartPage_WEB\\20190513_214807\\Screenshots/StartPage/1920x1080/Start-0.png]]
+
+2019-05-13 21:48:50 - [TEST_STEP][PASSED] - (n++): null
+
+2019-05-13 21:48:50 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("StartPage_OR/p_2019 VERyx"), 0): Scroll to object 'Object Repository/StartPage_OR/p_2019 VERyx' successfully
+
+2019-05-13 21:48:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-13 21:48:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/StartPage_OR/p_2019 VERyx' successfully
+
+2019-05-13 21:48:50 - [TEST_STEP][PASSED] - takeScreenshot("Screenshots/StartPage/1920x1080/Start-" + n + ".png"): Taking screenshot successfully
+
+2019-05-13 21:48:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Katalon projects\\KatalonVeryxWEB\\Reports\\T.S_StartPage_WEB\\20190513_214807\\Screenshots/StartPage/1920x1080/Start-1.png]]
+
+2019-05-13 21:48:50 - [TEST_STEP][PASSED] - (n++): null
+
+2019-05-13 21:48:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-13 21:48:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-13 21:48:09 - [TEST_SUITE][PASSED] - T.S_StartPage_WEB: Test Cases/T.C_StartPage_1920x1080_WEB]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
