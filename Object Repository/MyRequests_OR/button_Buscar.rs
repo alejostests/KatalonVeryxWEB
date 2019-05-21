@@ -3,11 +3,11 @@
    <description></description>
    <name>button_Buscar</name>
    <tag></tag>
-   <elementGuidId>ee1c12ab-5ad0-450f-8449-ddc76fd1575f</elementGuidId>
+   <elementGuidId>a1954bdc-db31-49d9-97c4-2d58e4abc764</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[2]</value>
+         <value>(//button[@type='button'])[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -45,48 +45,55 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;myrequest&quot;)/div[@class=&quot;text-center col-8 offset-2&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;mt-3 mb-5 col-10 offset-1&quot;]/form[@class=&quot;justify-content-center form-inline&quot;]/div[@class=&quot;input-group&quot;]/div[@class=&quot;input-group-append&quot;]/button[@class=&quot;btn btn-secondary&quot;]</value>
+      <value>id(&quot;myrequest&quot;)/div[@class=&quot;text-center col-md-12 col-lg-8 offset-md-0 offset-lg-2&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;mt-3 mb-5 col-md-10 offset-md-1 col-12 offset-0&quot;]/form[@class=&quot;justify-content-center form-inline&quot;]/div[@class=&quot;input-group&quot;]/div[@class=&quot;input-group-append&quot;]/button[@class=&quot;btn btn-secondary&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>(//button[@type='button'])[2]</value>
+      <type>Main</type>
+      <value>(//button[@type='button'])[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
+      <type>Main</type>
       <value>//div[@id='myrequest']/div/div/div/form/div/div/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Busqueda'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mis solicitudes'])[2]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Solicitar prueba'])[2]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='item1'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
+      <type>Main</type>
       <value>//div/button</value>
    </webElementXpaths>
 </WebElementEntity>

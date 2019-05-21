@@ -59,11 +59,11 @@ n++
 
 WebUI.scrollToPosition(0, 0)
 
-WebUI.click(findTestObject('Object Repository/MyProfile_OR/button_Editar Perfil'))
+WebUI.click(findTestObject('null'))
 
 WebUI.scrollToPosition(0, 0)
 
-WebUI.click(findTestObject('Object Repository/MyProfile_OR/a_Perfil'))
+WebUI.click(findTestObject('MyProfile_OR/button_Editar Perfil'))
 
 WebUI.takeScreenshot(('Screenshots/MyProfile/1920x1080/MyProfile-' + n) + '.png')
 
@@ -133,7 +133,7 @@ n++
 
 WebUI.scrollToPosition(0, 0)
 
-WebUI.click(findTestObject('Object Repository/MyProfile_OR/button_Editar Perfil'))
+WebUI.click(findTestObject('MyProfile_OR/button_Editar Perfil'))
 
 WebUI.takeScreenshot(('Screenshots/MyProfile/1920x1080/MyProfile-' + n) + '.png')
 

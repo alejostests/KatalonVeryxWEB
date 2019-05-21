@@ -41,21 +41,21 @@ n++
 
 WebUI.scrollToPosition(0, 200)
 
-WebUI.setText(findTestObject('Object Repository/MyRequests_OR/input_Busqueda___BVID__28'), 'Solicitud')
+WebUI.setText(findTestObject('MyRequests_OR/input_Busqueda___BVID__29'), 'Solicitud')
 
-WebUI.click(findTestObject('Object Repository/MyRequests_OR/button_Buscar'))
-
-WebUI.takeScreenshot(('Screenshots/MyRequests/1024X768/MyRequests-' + n) + '.png')
-
-n++
-
-WebUI.click(findTestObject('Object Repository/MyRequests_OR/a_Pendientes'))
+WebUI.click(findTestObject('MyRequests_OR/button_Buscar'))
 
 WebUI.takeScreenshot(('Screenshots/MyRequests/1024X768/MyRequests-' + n) + '.png')
 
 n++
 
-WebUI.click(findTestObject('Object Repository/MyRequests_OR/a_Finalizadas'))
+WebUI.click(findTestObject('MyRequests_OR/a_Pendientes'))
+
+WebUI.takeScreenshot(('Screenshots/MyRequests/1024X768/MyRequests-' + n) + '.png')
+
+n++
+
+WebUI.click(findTestObject('MyRequests_OR/a_Finalizadas'))
 
 WebUI.takeScreenshot(('Screenshots/MyRequests/1024X768/MyRequests-' + n) + '.png')
 

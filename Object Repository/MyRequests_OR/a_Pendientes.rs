@@ -3,11 +3,11 @@
    <description></description>
    <name>a_Pendientes</name>
    <tag></tag>
-   <elementGuidId>7399dfeb-b800-4c33-a14d-a8b7d8033c2a</elementGuidId>
+   <elementGuidId>19cb5bfa-3491-4da2-bd1e-1663ec6d727f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='__BVID__30___BV_tab_button__']</value>
+         <value>//a[@id='__BVID__31___BV_tab_button__']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -31,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>__BVID__30___BV_tab_button__</value>
+      <value>__BVID__31___BV_tab_button__</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,60 +94,69 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__BVID__30___BV_tab_button__&quot;)</value>
+      <value>id(&quot;__BVID__31___BV_tab_button__&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>//a[@id='__BVID__30___BV_tab_button__']</value>
+      <type>Main</type>
+      <value>//a[@id='__BVID__31___BV_tab_button__']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//ul[@id='__BVID__29__BV_tab_controls_']/li/a</value>
+      <type>Main</type>
+      <value>//ul[@id='__BVID__30__BV_tab_controls_']/li/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
+      <type>Main</type>
       <value>//a[contains(text(),'Pendientes')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Buscar'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Busqueda'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Solicitar prueba'])[2]/preceding::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='item1'])[1]/preceding::a[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
+      <type>Main</type>
       <value>(//a[contains(@href, '#')])[11]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
+      <type>Main</type>
       <value>//div/div/ul/li/a</value>
    </webElementXpaths>
 </WebElementEntity>

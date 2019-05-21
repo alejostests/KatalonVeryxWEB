@@ -3,11 +3,11 @@
    <description></description>
    <name>button_Editar Perfil</name>
    <tag></tag>
-   <elementGuidId>31622c61-5a0b-4544-a8db-b52c2a9ba532</elementGuidId>
+   <elementGuidId>4b5d82f0-d6dc-4c62-aa07-e6d5689d7f69</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[2]</value>
+         <value>(//button[@type='button'])[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -45,48 +45,55 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;text-center p-0 col-8 offset-2&quot;]/div[@class=&quot;row pb-5 mb-5&quot;]/div[@class=&quot;text-center p-0 col-10 offset-1&quot;]/div[@class=&quot;row pt-2&quot;]/div[@class=&quot;mt-4 col-8 offset-2&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;pt-3 col-12&quot;]/div[@class=&quot;btn-border&quot;]/div[1]/button[@class=&quot;btn btn-secondary&quot;]</value>
+      <value>id(&quot;app&quot;)/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;text-center p-0 col-lg-8 offset-lg-2 col-12 offset-0&quot;]/div[@class=&quot;row pb-5 mb-5&quot;]/div[@class=&quot;text-center p-0 col-10 offset-1&quot;]/div[@class=&quot;row pt-2&quot;]/div[@class=&quot;mt-4 col-8 offset-2&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;pt-3 col-12&quot;]/div[@class=&quot;btn-border&quot;]/div[1]/button[@class=&quot;btn btn-secondary&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>(//button[@type='button'])[2]</value>
+      <type>Main</type>
+      <value>(//button[@type='button'])[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
+      <type>Main</type>
       <value>//div[@id='app']/div/div/div[2]/div/div[2]/div/div/div/div/div[4]/div/div/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mi perfil'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Idioma'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nombres y apellidos:'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Luis Alberto Posada Arias'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
+      <type>Main</type>
       <value>//div/button</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -3,11 +3,11 @@
    <description></description>
    <name>a_03</name>
    <tag></tag>
-   <elementGuidId>f2fd963f-ac67-4abf-8120-1497e1781988</elementGuidId>
+   <elementGuidId>d8d413ab-dd12-4ef8-b89a-c88150101614</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='__BVID__67___BV_tab_button__']</value>
+         <value>//a[@id='__BVID__68___BV_tab_button__']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -31,14 +31,14 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>__BVID__67___BV_tab_button__</value>
+      <value>__BVID__68___BV_tab_button__</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-selected</name>
       <type>Main</type>
-      <value>false</value>
+      <value>true</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,14 +73,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>nav-link</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
-      <type>Main</type>
-      <value>-1</value>
+      <value>nav-link active</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -94,21 +87,21 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__BVID__67___BV_tab_button__&quot;)</value>
+      <value>id(&quot;__BVID__68___BV_tab_button__&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='__BVID__67___BV_tab_button__']</value>
+      <value>//a[@id='__BVID__68___BV_tab_button__']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ul[@id='__BVID__28__BV_tab_controls_']/li[3]/a</value>
+      <value>//ul[@id='__BVID__29__BV_tab_controls_']/li[3]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

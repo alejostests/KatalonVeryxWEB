@@ -101,8 +101,6 @@ WebUI.scrollToPosition(0, 0)
 
 WebUI.click(findTestObject('RequestTest_OR/a_02'))
 
-WebUI.click(findTestObject('RequestTest_OR/label_Lorem ipsum dolor sit amet'))
-
 WebUI.takeScreenshot(('Screenshots/RequestTest/1366x768/RequestTest-' + n) + '.png')
 
 n++
