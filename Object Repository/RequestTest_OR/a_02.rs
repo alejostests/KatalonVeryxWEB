@@ -3,11 +3,11 @@
    <description></description>
    <name>a_02</name>
    <tag></tag>
-   <elementGuidId>b35f9fe7-5ec7-4e54-b5e1-90acaf2f741a</elementGuidId>
+   <elementGuidId>f9e7e697-daaf-4117-806c-2edcb58a27ca</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='__BVID__58___BV_tab_button__']</value>
+         <value>//a[@id='__BVID__63___BV_tab_button__']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -31,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>__BVID__58___BV_tab_button__</value>
+      <value>__BVID__63___BV_tab_button__</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,21 +94,21 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__BVID__58___BV_tab_button__&quot;)</value>
+      <value>id(&quot;__BVID__63___BV_tab_button__&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='__BVID__58___BV_tab_button__']</value>
+      <value>//a[@id='__BVID__63___BV_tab_button__']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ul[@id='__BVID__29__BV_tab_controls_']/li[2]/a</value>
+      <value>//ul[@id='__BVID__34__BV_tab_controls_']/li[2]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

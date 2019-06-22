@@ -3,11 +3,11 @@
    <description></description>
    <name>button_Save</name>
    <tag></tag>
-   <elementGuidId>cc0baf41-07ba-4e56-8e5f-4b6c19491384</elementGuidId>
+   <elementGuidId>01053975-6db8-40f9-a5be-70bf54e907e3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='__BVID__36']/p/div/div[4]/div[2]/button</value>
+         <value>//div[@id='__BVID__41']/p/div/div[4]/div[2]/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -31,36 +31,41 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__BVID__36&quot;)/p[@class=&quot;card-text&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[2]/button[1]</value>
+      <value>id(&quot;__BVID__41&quot;)/p[@class=&quot;card-text&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[2]/button[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='__BVID__36']/p/div/div[4]/div[2]/button</value>
+      <type>Main</type>
+      <value>//div[@id='__BVID__41']/p/div/div[4]/div[2]/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Firma *'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Especialidad *'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Undo'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
+      <type>Main</type>
       <value>//button</value>
    </webElementXpaths>
 </WebElementEntity>

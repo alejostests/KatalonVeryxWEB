@@ -15,33 +15,43 @@ import internal.GlobalVariable as GlobalVariable
 
 int n = 0
 
-WebUI.openBrowser('')
+WebUI.openBrowser('http://veryx-client-dev.azurewebsites.net/#')
 
 WebUI.setViewPortSize(411, 823)
 
-WebUI.navigateToUrl('http://veryx-client-dev.azurewebsites.net/#/home/')
+WebUI.setText(findTestObject('MyProfile_OR/input_Correo electrnico _email - Copy'), 'alejostests@gmail.com')
+
+WebUI.setEncryptedText(findTestObject('MyProfile_OR/input_Contrasea _password - Copy'), 'n3FO92K+dHdem137Wy3cYA==')
+
+WebUI.click(findTestObject('MyProfile_OR/button_INICIAR SESIN'))
+
+WebUI.waitForElementNotVisible(findTestObject('MyProfile_OR/p_2019 VERyx'), 2)
 
 WebUI.takeScreenshot(('Screenshots/MyProfile/Responsive/MyProfile-' + n) + '.png')
 
 n++
 
-WebUI.scrollToPosition(0, 400)
+WebUI.scrollToElement(findTestObject('MyProfile_OR/div_VERyx_header-line'), 5)
 
 WebUI.takeScreenshot(('Screenshots/MyProfile/Responsive/MyProfile-' + n) + '.png')
 
 n++
 
-WebUI.scrollToElement(findTestObject('MyProfile_OR/p_2019 VERyx'), 0)
+WebUI.scrollToElement(findTestObject('MyProfile_OR/p_2019 VERyx'), 5)
 
 WebUI.takeScreenshot(('Screenshots/MyProfile/Responsive/MyProfile-' + n) + '.png')
 
 n++
 
-WebUI.scrollToPosition(0, 0)
+WebUI.scrollToElement(findTestObject('MyProfile_OR/div_VERyx_header-line'), 5)
 
 WebUI.click(findTestObject('MyProfile_OR/span_VERyx_navbar-toggler-icon'))
 
+WebUI.waitForElementNotVisible(findTestObject('MyProfile_OR/p_2019 VERyx'), 2)
+
 WebUI.click(findTestObject('MyProfile_OR/a_Perfil'))
+
+WebUI.waitForElementNotVisible(findTestObject('MyProfile_OR/p_2019 VERyx'), 2)
 
 WebUI.takeScreenshot(('Screenshots/MyProfile/Responsive/MyProfile-' + n) + '.png')
 
@@ -53,23 +63,19 @@ WebUI.takeScreenshot(('Screenshots/MyProfile/Responsive/MyProfile-' + n) + '.png
 
 n++
 
-WebUI.scrollToPosition(0, 800)
+WebUI.scrollToElement(findTestObject('MyProfile_OR/p_2019 VERyx'), 5)
 
 WebUI.takeScreenshot(('Screenshots/MyProfile/Responsive/MyProfile-' + n) + '.png')
 
 n++
 
-WebUI.scrollToElement(findTestObject('MyProfile_OR/p_2019 VERyx'), 0)
-
-WebUI.takeScreenshot(('Screenshots/MyProfile/Responsive/MyProfile-' + n) + '.png')
-
-n++
-
-WebUI.scrollToPosition(0, 0)
+WebUI.scrollToElement(findTestObject('MyProfile_OR/div_VERyx_header-line'), 5)
 
 WebUI.click(findTestObject('MyProfile_OR/button_Editar Perfil'))
 
-WebUI.scrollToPosition(0, 0)
+WebUI.scrollToElement(findTestObject('MyProfile_OR/div_VERyx_header-line'), 5)
+
+WebUI.waitForElementNotVisible(findTestObject('MyProfile_OR/p_2019 VERyx'), 2)
 
 WebUI.takeScreenshot(('Screenshots/MyProfile/Responsive/MyProfile-' + n) + '.png')
 
@@ -81,19 +87,67 @@ WebUI.takeScreenshot(('Screenshots/MyProfile/Responsive/MyProfile-' + n) + '.png
 
 n++
 
-WebUI.scrollToPosition(0, 800)
+WebUI.scrollToElement(findTestObject('MyProfile_OR/p_2019 VERyx'), 5)
 
 WebUI.takeScreenshot(('Screenshots/MyProfile/Responsive/MyProfile-' + n) + '.png')
 
 n++
 
-WebUI.scrollToPosition(0, 0)
+WebUI.scrollToElement(findTestObject('MyProfile_OR/div_VERyx_header-line'), 5)
 
 WebUI.setText(findTestObject('MyProfile_OR/input_Nombres _name'), 'Prueba')
 
 WebUI.setText(findTestObject('MyProfile_OR/input_Apellidos _lastname'), 'Dos')
 
+WebUI.takeScreenshot(('Screenshots/MyProfile/Responsive/MyProfile-' + n) + '.png')
+
+n++
+
+WebUI.scrollToPosition(0, 400)
+
 WebUI.setText(findTestObject('MyProfile_OR/input_Correo Electrnico _email'), 'test@test.com')
+
+WebUI.scrollToPosition(0, 530)
+
+WebUI.click(findTestObject('MyProfile_OR/span_Cdula de Ciudadana'))
+
+WebUI.takeScreenshot(('Screenshots/MyProfile/Responsive/MyProfile-' + n) + '.png')
+
+n++
+
+WebUI.click(findTestObject('Object Repository/MyProfile_OR/li_Registro Civil'))
+
+WebUI.takeScreenshot(('Screenshots/MyProfile/Responsive/MyProfile-' + n) + '.png')
+
+n++
+
+WebUI.click(findTestObject('MyProfile_OR/span_ABEJORRAL'))
+
+WebUI.takeScreenshot(('Screenshots/MyProfile/Responsive/MyProfile-' + n) + '.png')
+
+n++
+
+WebUI.click(findTestObject('Object Repository/MyProfile_OR/li_CALDAS'))
+
+WebUI.setText(findTestObject('MyProfile_OR/input_Nmero de identificacin _document'), '46541984865465489')
+
+WebUI.takeScreenshot(('Screenshots/MyProfile/Responsive/MyProfile-' + n) + '.png')
+
+n++
+
+WebUI.click(findTestObject('MyProfile_OR/span_MEDICINA INTERNA'))
+
+WebUI.click(findTestObject('Object Repository/MyProfile_OR/li_REUMATOLOGA'))
+
+WebUI.takeScreenshot(('Screenshots/MyProfile/Responsive/MyProfile-' + n) + '.png')
+
+n++
+
+WebUI.scrollToElement(findTestObject('MyProfile_OR/div_VERyx_header-line'), 5)
+
+WebUI.click(findTestObject('MyProfile_OR/button_Save'))
+
+WebUI.waitForElementNotVisible(findTestObject('MyProfile_OR/p_2019 VERyx'), 5)
 
 WebUI.takeScreenshot(('Screenshots/MyProfile/Responsive/MyProfile-' + n) + '.png')
 
@@ -101,33 +155,17 @@ n++
 
 WebUI.scrollToPosition(0, 400)
 
-WebUI.setEncryptedText(findTestObject('MyProfile_OR/input_Contrasea _password'), 'n3FO92K+dHdem137Wy3cYA==')
+WebUI.takeScreenshot(('Screenshots/MyProfile/Responsive/MyProfile-' + n) + '.png')
 
-WebUI.selectOptionByValue(findTestObject('MyProfile_OR/select_Cdula de ciudadaniaTI'), 'TI', true)
+n++
 
-WebUI.setText(findTestObject('MyProfile_OR/input_Nmero de identificacin _identificationnumber'), '46541984865465489')
-
-WebUI.selectOptionByValue(findTestObject('MyProfile_OR/select_Cdula de ciudadaniaTI_1'), 'CC', true)
-
-WebUI.setText(findTestObject('MyProfile_OR/input_Firma _medicalreg'), '1345645645')
+WebUI.scrollToElement(findTestObject('MyProfile_OR/p_2019 VERyx'), 5)
 
 WebUI.takeScreenshot(('Screenshots/MyProfile/Responsive/MyProfile-' + n) + '.png')
 
 n++
 
-WebUI.scrollToPosition(0, 800)
-
-WebUI.takeScreenshot(('Screenshots/MyProfile/Responsive/MyProfile-' + n) + '.png')
-
-n++
-
-WebUI.scrollToPosition(0, 0)
-
-WebUI.click(findTestObject('MyProfile_OR/button_Editar Perfil'))
-
-WebUI.takeScreenshot(('Screenshots/MyProfile/Responsive/MyProfile-' + n) + '.png')
-
-n++
+WebUI.scrollToElement(findTestObject('MyProfile_OR/div_VERyx_header-line'), 5)
 
 WebUI.closeBrowser()
 

@@ -41,7 +41,7 @@ n++
 
 WebUI.scrollToPosition(0, 200)
 
-WebUI.setText(findTestObject('MyRequests_OR/input_Busqueda___BVID__29'), 'Solicitud')
+WebUI.setText(findTestObject('MyRequests_OR/input_Busqueda___BVID__34'), 'Solicitud')
 
 WebUI.click(findTestObject('MyRequests_OR/button_Buscar'))
 

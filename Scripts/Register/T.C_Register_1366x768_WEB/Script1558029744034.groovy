@@ -77,7 +77,7 @@ n++
 
 WebUI.scrollToPosition(0, 0)
 
-WebUI.click(findTestObject('Object Repository/Register_OR/a_02'))
+WebUI.click(findTestObject('Register_OR/a_02'))
 
 WebUI.takeScreenshot(('Screenshots/Register/1366x768/Register-' + n) + '.png')
 
@@ -109,11 +109,11 @@ n++
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Register_OR/select_Cdula de ciudadaniaTI_1'), 'CC', true)
 
-WebUI.setText(findTestObject('Object Repository/Register_OR/input_Firma _medicalreg'), '000123654')
+WebUI.setText(findTestObject('Register_OR/input_Firma _firma'), '000123654')
 
 WebUI.scrollToPosition(0, 400)
 
-WebUI.click(findTestObject('Object Repository/Register_OR/canvas'))
+WebUI.click(findTestObject('Register_OR/canvas'))
 
 WebUI.takeScreenshot(('Screenshots/Register/1366x768/Register-' + n) + '.png')
 
@@ -125,7 +125,7 @@ WebUI.takeScreenshot(('Screenshots/Register/1366x768/Register-' + n) + '.png')
 
 n++
 
-WebUI.click(findTestObject('Object Repository/Register_OR/button_Save'))
+WebUI.click(findTestObject('Register_OR/button_Save'))
 
 WebUI.closeBrowser()
 

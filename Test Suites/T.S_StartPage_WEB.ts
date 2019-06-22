@@ -11,33 +11,39 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>f78728f4-feea-47c8-b82c-1f756ba1fa4d</testSuiteGuid>
    <testCaseLink>
-      <guid>0cd76567-82ec-4a99-8562-016e914a8787</guid>
+      <guid>d6aec721-8e8e-45b6-994e-5dc4069453f9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/StartPage/T.C_StartPage_1024x768_WEB</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>0d5392f6-be62-41cf-b896-971e9a2686b8</guid>
+      <guid>0d96d583-2f3e-4a96-aea4-0e8ea16e0e5e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/StartPage/T.C_StartPage_1366x768_WEB</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>27173c46-f586-4bdf-95a9-754dfe359d4d</guid>
+      <guid>67791a8d-d1d6-4712-9b78-e8f5b90e5920</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/StartPage/T.C_StartPage_1440x900_WEB</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>35c19b40-dde4-41bd-b605-e15afc971999</guid>
+      <guid>292cfe22-926d-479a-afff-436f8e24af12</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/StartPage/T.C_StartPage_1600x900_WEB</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>60ff14ec-3205-4b8b-b15d-7af7a87adc49</guid>
+      <guid>385c3744-27c7-4695-a12c-7e5a517a5bf6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/StartPage/T.C_StartPage_1920x1080_WEB</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a5d0aa22-f834-4a7d-be2c-9eb5214d1e9d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/StartPage/T.C_StartPage_Responsive_WEB</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

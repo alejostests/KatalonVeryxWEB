@@ -11,33 +11,39 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>2ee94001-6f40-4431-b267-73085a0bb563</testSuiteGuid>
    <testCaseLink>
-      <guid>9fac4636-e4ac-4084-9dc8-e8c7b24870dc</guid>
+      <guid>72eeb16c-543b-41b7-bb39-681745d943c1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/RecoverPassUsername/T.C_RecoverPassUserName_1024x768_WEB</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>95c53cef-28eb-454a-a16b-f42a80494e00</guid>
+      <guid>5ab9b717-11c6-40e1-a4e9-aa731b60f2df</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/RecoverPassUsername/T.C_RecoverPassUserName_1366x768_WEB</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>9a431104-eac4-4de4-9815-7b0a9c9e73a8</guid>
+      <guid>4d7f33ee-58d2-4bbd-ae55-19ea6ca57b21</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/RecoverPassUsername/T.C_RecoverPassUserName_1440x900_WEB</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>bac2bfb1-00a6-447c-8454-db71564f738c</guid>
+      <guid>91c301b1-f539-41a9-b881-3fa81eb076f5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/RecoverPassUsername/T.C_RecoverPassUserName_1600x900_WEB</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>988f3ee6-2d23-4529-a23a-eb54e68a1f00</guid>
+      <guid>4efa353c-3748-4ab9-874a-016d1c886c16</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/RecoverPassUsername/T.C_RecoverPassUserName_1920x1080_WEB</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f47cf202-3079-4ac7-8d92-375942d1d183</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/RecoverPassUsername/T.C_RecoverPassUserName_Responsive_WEB</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

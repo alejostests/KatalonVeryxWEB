@@ -23,51 +23,65 @@ WebUI.navigateToUrl('http://veryx-client-dev.azurewebsites.net/#/')
 
 WebUI.click(findTestObject('RecoverPassUsername_OR/a_Recuperar Usuario  contrasea'))
 
-WebUI.takeScreenshot(('Screenshots/RecoverPassUsername/1920x1080/Pass-' + n) + '.png')
+WebUI.takeScreenshot(('Screenshots/RecoverPassUsername/1920X1080/Pass-' + n) + '.png')
 
 n++
 
-WebUI.setText(findTestObject('RecoverPassUsername_OR/input_Documento de identidad_numidentification'), '123')
+WebUI.setText(findTestObject('RecoverPassUsername_OR/input_Recuperar Usuario_document'), '123')
 
-WebUI.takeScreenshot(('Screenshots/RecoverPassUsername/1920x1080/Pass-' + n) + '.png')
+WebUI.takeScreenshot(('Screenshots/RecoverPassUsername/1920X1080/Pass-' + n) + '.png')
 
 n++
 
-WebUI.setText(findTestObject('RecoverPassUsername_OR/input_Documento de identidad_numidentification'), '')
+WebUI.setText(findTestObject('RecoverPassUsername_OR/input_Recuperar Usuario_document'), '')
+
+WebUI.click(findTestObject('RecoverPassUsername_OR/select_CCTI'))
+
+WebUI.takeScreenshot(('Screenshots/RecoverPassUsername/1920X1080/Pass-' + n) + '.png')
+
+n++
 
 WebUI.selectOptionByValue(findTestObject('RecoverPassUsername_OR/select_CCTI'), 'TI', true)
 
-WebUI.takeScreenshot(('Screenshots/RecoverPassUsername/1920x1080/Pass-' + n) + '.png')
+WebUI.takeScreenshot(('Screenshots/RecoverPassUsername/1920X1080/Pass-' + n) + '.png')
 
 n++
 
-WebUI.setText(findTestObject('RecoverPassUsername_OR/input_Documento de identidad_numidentification'), '123')
+WebUI.setText(findTestObject('RecoverPassUsername_OR/input_Recuperar Usuario_document'), '123')
 
-WebUI.takeScreenshot(('Screenshots/RecoverPassUsername/1920x1080/Pass-' + n) + '.png')
+WebUI.takeScreenshot(('Screenshots/RecoverPassUsername/1920X1080/Pass-' + n) + '.png')
 
 n++
 
-WebUI.setText(findTestObject('RecoverPassUsername_OR/input_Documento de identidad_numidentification'), '')
+WebUI.setText(findTestObject('RecoverPassUsername_OR/input_Recuperar Usuario_document'), '')
 
 WebUI.scrollToElement(findTestObject('RecoverPassUsername_OR/p_2019 VERyx'), 0)
 
-WebUI.takeScreenshot(('Screenshots/RecoverPassUsername/1920x1080/Pass-' + n) + '.png')
+WebUI.takeScreenshot(('Screenshots/RecoverPassUsername/1920X1080/Pass-' + n) + '.png')
 
 n++
 
+WebUI.scrollToElement(findTestObject('RecoverPassUsername_OR/div_VERyx_header-line'), 0)
+
 WebUI.click(findTestObject('RecoverPassUsername_OR/a_Recuperar Contrasea'))
 
-WebUI.takeScreenshot(('Screenshots/RecoverPassUsername/1920x1080/Username-' + n) + '.png')
+WebUI.takeScreenshot(('Screenshots/RecoverPassUsername/1920X1080/Username-' + n) + '.png')
 
 n++
 
 WebUI.setText(findTestObject('RecoverPassUsername_OR/input_Correo Electrnico _email'), 'alejos@mail.com')
 
-WebUI.takeScreenshot(('Screenshots/RecoverPassUsername/1920x1080/Username-' + n) + '.png')
+WebUI.takeScreenshot(('Screenshots/RecoverPassUsername/1920X1080/Username-' + n) + '.png')
 
 n++
 
 WebUI.setText(findTestObject('RecoverPassUsername_OR/input_Correo Electrnico _email'), '')
+
+WebUI.scrollToElement(findTestObject('RecoverPassUsername_OR/p_2019 VERyx'), 0)
+
+WebUI.takeScreenshot(('Screenshots/RecoverPassUsername/1920X1080/Username-' + n) + '.png')
+
+n++
 
 WebUI.closeBrowser()
 

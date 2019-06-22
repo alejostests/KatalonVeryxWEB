@@ -27,13 +27,19 @@ WebUI.takeScreenshot(('Screenshots/RecoverPassUsername/1024X768/Pass-' + n) + '.
 
 n++
 
-WebUI.setText(findTestObject('RecoverPassUsername_OR/input_Documento de identidad_numidentification'), '123')
+WebUI.setText(findTestObject('RecoverPassUsername_OR/input_Recuperar Usuario_document'), '123')
 
 WebUI.takeScreenshot(('Screenshots/RecoverPassUsername/1024X768/Pass-' + n) + '.png')
 
 n++
 
-WebUI.setText(findTestObject('RecoverPassUsername_OR/input_Documento de identidad_numidentification'), '')
+WebUI.setText(findTestObject('RecoverPassUsername_OR/input_Recuperar Usuario_document'), '')
+
+WebUI.click(findTestObject('RecoverPassUsername_OR/select_CCTI'))
+
+WebUI.takeScreenshot(('Screenshots/RecoverPassUsername/1024X768/Pass-' + n) + '.png')
+
+n++
 
 WebUI.selectOptionByValue(findTestObject('RecoverPassUsername_OR/select_CCTI'), 'TI', true)
 
@@ -41,13 +47,13 @@ WebUI.takeScreenshot(('Screenshots/RecoverPassUsername/1024X768/Pass-' + n) + '.
 
 n++
 
-WebUI.setText(findTestObject('RecoverPassUsername_OR/input_Documento de identidad_numidentification'), '123')
+WebUI.setText(findTestObject('RecoverPassUsername_OR/input_Recuperar Usuario_document'), '123')
 
 WebUI.takeScreenshot(('Screenshots/RecoverPassUsername/1024X768/Pass-' + n) + '.png')
 
 n++
 
-WebUI.setText(findTestObject('RecoverPassUsername_OR/input_Documento de identidad_numidentification'), '')
+WebUI.setText(findTestObject('RecoverPassUsername_OR/input_Recuperar Usuario_document'), '')
 
 WebUI.scrollToElement(findTestObject('RecoverPassUsername_OR/p_2019 VERyx'), 0)
 

@@ -105,6 +105,18 @@ WebUI.takeScreenshot(('Screenshots/RequestTest/1440x900/RequestTest-' + n) + '.p
 
 n++
 
+WebUI.scrollToPosition(0, 400)
+
+WebUI.takeScreenshot(('Screenshots/RequestTest/1440x900/RequestTest-' + n) + '.png')
+
+n++
+
+WebUI.scrollToPosition(0, 800)
+
+WebUI.takeScreenshot(('Screenshots/RequestTest/1440x900/RequestTest-' + n) + '.png')
+
+n++
+
 WebUI.scrollToElement(findTestObject('RequestTest_OR/p_2019 VERyx'), 0)
 
 WebUI.takeScreenshot(('Screenshots/RequestTest/1440x900/RequestTest-' + n) + '.png')
@@ -120,6 +132,12 @@ WebUI.takeScreenshot(('Screenshots/RequestTest/1440x900/RequestTest-' + n) + '.p
 n++
 
 WebUI.scrollToPosition(0, 400)
+
+WebUI.takeScreenshot(('Screenshots/RequestTest/1440x900/RequestTest-' + n) + '.png')
+
+n++
+
+WebUI.scrollToPosition(0, 800)
 
 WebUI.takeScreenshot(('Screenshots/RequestTest/1440x900/RequestTest-' + n) + '.png')
 

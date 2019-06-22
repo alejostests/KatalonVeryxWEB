@@ -15,19 +15,23 @@ import internal.GlobalVariable as GlobalVariable
 
 int n = 0
 
-WebUI.openBrowser('')
+WebUI.openBrowser('http://veryx-client-dev.azurewebsites.net/#')
 
 WebUI.setViewPortSize(1920, 1080)
 
-WebUI.navigateToUrl('http://veryx-client-dev.azurewebsites.net/#/home/')
+WebUI.setText(findTestObject('Object Repository/Contact_OR/input_Correo electrnico _email'), 'alejostests@gmail.com')
 
-WebUI.click(findTestObject('Contact_OR/a_Contacto'))
+WebUI.setEncryptedText(findTestObject('Object Repository/Contact_OR/input_Contrasea _password'), 'n3FO92K+dHdem137Wy3cYA==')
+
+WebUI.click(findTestObject('Object Repository/Contact_OR/button_INICIAR SESIN'))
+
+WebUI.click(findTestObject('Contact_OR/a_Contact'))
 
 WebUI.takeScreenshot(('Screenshots/Contact/1920x1080/Contact-' + n) + '.png')
 
 n++
 
-WebUI.scrollToElement(findTestObject('Contact_OR/p_2019 VERyx'), 0)
+WebUI.scrollToElement(findTestObject('Contact_OR/p_2019 VERyx'), 5)
 
 WebUI.takeScreenshot(('Screenshots/Contact/1920x1080/Contact-' + n) + '.png')
 
