@@ -15,11 +15,9 @@ import internal.GlobalVariable as GlobalVariable
 
 int n = 0
 
-WebUI.openBrowser('')
+WebUI.openBrowser('http://veryx-client-dev.azurewebsites.net/#/')
 
 WebUI.setViewPortSize(411, 823)
-
-WebUI.navigateToUrl('http://veryx-client-dev.azurewebsites.net/#/')
 
 WebUI.click(findTestObject('RecoverPassUsername_OR/a_Recuperar Usuario  contrasea'))
 

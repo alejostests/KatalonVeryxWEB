@@ -3,11 +3,11 @@
    <description></description>
    <name>p_2019 VERyx</name>
    <tag></tag>
-   <elementGuidId>53ba9256-52e6-416f-835f-1ce1a5742976</elementGuidId>
+   <elementGuidId>8e8b7d80-6b23-4c04-863b-ad4bd3ee29d7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/footer/div/div/div[4]/p</value>
+         <value>//div[@id='app']/footer/div/div/div[2]/p</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -38,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/footer/div/div/div[4]/p</value>
+      <value>//div[@id='app']/footer/div/div/div[2]/p</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,8 +57,22 @@
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::p[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::p[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//footer/div/div/div[4]/p</value>
+      <value>//div[2]/p</value>
    </webElementXpaths>
 </WebElementEntity>

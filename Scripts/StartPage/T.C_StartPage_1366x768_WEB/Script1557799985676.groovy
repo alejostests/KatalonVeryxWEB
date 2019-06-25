@@ -15,13 +15,11 @@ import internal.GlobalVariable as GlobalVariable
 
 int n = 0
 
-WebUI.openBrowser('')
+WebUI.openBrowser('http://veryx-client-dev.azurewebsites.net/#/')
 
 WebUI.setViewPortSize(1366, 768)
 
-WebUI.navigateToUrl('http://veryx-client-dev.azurewebsites.net/#/')
-
-WebUI.waitForPageLoad(0)
+WebUI.waitForPageLoad(5)
 
 WebUI.setText(findTestObject('StartPage_OR/input_Correo Electrnico _email'), 'alejos@mail.com')
 
@@ -37,7 +35,7 @@ WebUI.takeScreenshot(('Screenshots/StartPage/1366X768/Start-' + n) + '.png')
 
 n++
 
-WebUI.scrollToElement(findTestObject('StartPage_OR/p_2019 VERyx'), 0)
+WebUI.scrollToElement(findTestObject('StartPage_OR/p_2019 VERyx'), 5)
 
 WebUI.takeScreenshot(('Screenshots/StartPage/1366X768/Start-' + n) + '.png')
 

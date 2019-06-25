@@ -25,7 +25,11 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Contact_OR/input_Contra
 
 WebUI.click(findTestObject('Object Repository/Contact_OR/button_INICIAR SESIN'))
 
+WebUI.waitForElementNotVisible(findTestObject('Contact_OR/p_2019 VERyx'), 2)
+
 WebUI.click(findTestObject('Contact_OR/a_Contact'))
+
+WebUI.waitForElementNotVisible(findTestObject('Contact_OR/p_2019 VERyx'), 2)
 
 WebUI.takeScreenshot(('Screenshots/Contact/1024X768/Contact-' + n) + '.png')
 

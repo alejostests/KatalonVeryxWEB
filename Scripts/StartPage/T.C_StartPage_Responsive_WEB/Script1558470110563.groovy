@@ -15,11 +15,9 @@ import internal.GlobalVariable as GlobalVariable
 
 int n = 0
 
-WebUI.openBrowser('')
+WebUI.openBrowser('http://veryx-client-dev.azurewebsites.net/#/')
 
 WebUI.setViewPortSize(411, 823)
-
-WebUI.navigateToUrl('http://veryx-client-dev.azurewebsites.net/#/')
 
 WebUI.waitForPageLoad(10)
 
@@ -47,7 +45,7 @@ WebUI.takeScreenshot(('Screenshots/StartPage/Responsive/Start-' + n) + '.png')
 
 n++
 
-WebUI.scrollToElement(findTestObject('StartPage_OR/p_2019 VERyx'), 0)
+WebUI.scrollToElement(findTestObject('StartPage_OR/p_2019 VERyx'), 5)
 
 WebUI.takeScreenshot(('Screenshots/StartPage/Responsive/Start-' + n) + '.png')
 
