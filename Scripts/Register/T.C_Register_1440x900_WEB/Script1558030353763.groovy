@@ -25,19 +25,19 @@ WebUI.waitForElementNotVisible(findTestObject('Register_OR/p_2019 VERyx'), 2)
 
 WebUI.scrollToElement(findTestObject('Register_OR/div_VERyx_header-line'), 5)
 
-WebUI.takeScreenshot(('Screenshots/Register/1440X900/Register-' + n) + '.png')
+WebUI.takeScreenshot(('Screenshots/Register/1440x900/Register-' + n) + '.png')
 
 n++
 
 WebUI.scrollToPosition(0, 400)
 
-WebUI.takeScreenshot(('Screenshots/Register/1440X900/Register-' + n) + '.png')
+WebUI.takeScreenshot(('Screenshots/Register/1440x900/Register-' + n) + '.png')
 
 n++
 
 WebUI.scrollToElement(findTestObject('Register_OR/p_2019 VERyx'), 5)
 
-WebUI.takeScreenshot(('Screenshots/Register/1440X900/Register-' + n) + '.png')
+WebUI.takeScreenshot(('Screenshots/Register/1440x900/Register-' + n) + '.png')
 
 n++
 
@@ -49,7 +49,7 @@ WebUI.setText(findTestObject('Object Repository/Register_OR/input_Nombres _name'
 
 WebUI.setText(findTestObject('Object Repository/Register_OR/input_Apellidos _lastname'), 'Uno')
 
-WebUI.takeScreenshot(('Screenshots/Register/1440X900/Register-' + n) + '.png')
+WebUI.takeScreenshot(('Screenshots/Register/1440x900/Register-' + n) + '.png')
 
 n++
 
@@ -59,7 +59,7 @@ WebUI.scrollToPosition(0, 400)
 
 WebUI.click(findTestObject('Register_OR/input_Tipo de identificacin _vs__search'))
 
-WebUI.takeScreenshot(('Screenshots/Register/1440X900/Register-' + n) + '.png')
+WebUI.takeScreenshot(('Screenshots/Register/1440x900/Register-' + n) + '.png')
 
 n++
 
@@ -71,21 +71,21 @@ WebUI.setText(findTestObject('Register_OR/input_Nmero de identificacin _document
 
 WebUI.setText(findTestObject('Object Repository/Register_OR/input_Numero de celular _phone'), '1234567890')
 
-WebUI.takeScreenshot(('Screenshots/Register/1440X900/Register-' + n) + '.png')
+WebUI.takeScreenshot(('Screenshots/Register/1440x900/Register-' + n) + '.png')
 
 n++
 
-WebUI.click(findTestObject('Register_OR/button_Siguiente'))
+WebUI.click(findTestObject('Register_OR/button_Siguiente01'))
 
 WebUI.scrollToElement(findTestObject('Register_OR/div_VERyx_header-line'), 5)
 
-WebUI.takeScreenshot(('Screenshots/Register/1440X900/Register-' + n) + '.png')
+WebUI.takeScreenshot(('Screenshots/Register/1440x900/Register-' + n) + '.png')
 
 n++
 
 WebUI.scrollToElement(findTestObject('Register_OR/p_2019 VERyx'), 5)
 
-WebUI.takeScreenshot(('Screenshots/Register/1440X900/Register-' + n) + '.png')
+WebUI.takeScreenshot(('Screenshots/Register/1440x900/Register-' + n) + '.png')
 
 WebUI.scrollToElement(findTestObject('Register_OR/div_VERyx_header-line'), 5)
 
@@ -95,39 +95,47 @@ WebUI.setText(findTestObject('Register_OR/input_Registro mdico  _registry'), '98
 
 WebUI.scrollToPosition(0, 100)
 
-WebUI.takeScreenshot(('Screenshots/Register/1440X900/Register-' + n) + '.png')
+WebUI.takeScreenshot(('Screenshots/Register/1440x900/Register-' + n) + '.png')
 
 n++
 
-WebUI.click(findTestObject('Register_OR/input_Tipo de identificacin Paso2'))
+WebUI.click(findTestObject('Register_OR/input_Ciudad  _vs__search'))
 
-WebUI.takeScreenshot(('Screenshots/Register/1440X900/Register-' + n) + '.png')
+WebUI.takeScreenshot(('Screenshots/Register/1440x900/Register-' + n) + '.png')
 
 n++
 
-WebUI.click(findTestObject('Register_OR/li_Tarjeta de identidad_paso2'))
+WebUI.click(findTestObject('Register_OR/li_ANDES'))
 
-WebUI.selectOptionByValue(findTestObject('Register_OR/select_Patologies'), '12', true)
+WebUI.waitForElementNotPresent(findTestObject('Register_OR/p_2019 VERyx'), 2)
 
-WebUI.click(findTestObject('Register_OR/span_Firma  _icon i-pencil-edit firm-icon'))
+WebUI.click(findTestObject('Register_OR/input_Especialidad  _vs__search'))
 
-WebUI.click(findTestObject('Register_OR/canvas2'))
+WebUI.click(findTestObject('Register_OR/li_CARDIOLOGIA'))
 
-WebUI.takeScreenshot(('Screenshots/Register/1440X900/Register-' + n) + '.png')
+WebUI.waitForElementNotPresent(findTestObject('Register_OR/p_2019 VERyx'), 2)
+
+WebUI.click(findTestObject('Register_OR/input_Firma  _firm'))
+
+WebUI.click(findTestObject('Register_OR/canvas'))
+
+WebUI.takeScreenshot(('Screenshots/Register/1440x900/Register-' + n) + '.png')
 
 n++
 
 WebUI.click(findTestObject('Register_OR/button_Siguiente_Firma'))
 
-WebUI.takeScreenshot(('Screenshots/Register/1440X900/Register-' + n) + '.png')
+WebUI.takeScreenshot(('Screenshots/Register/1440x900/Register-' + n) + '.png')
 
 n++
+
+WebUI.waitForElementNotPresent(findTestObject('Register_OR/p_2019 VERyx'), 2)
 
 WebUI.click(findTestObject('Register_OR/label_Acepto  poltica para manejo de datos'))
 
 WebUI.click(findTestObject('Register_OR/label_Acepto  trminos y condiciones'))
 
-WebUI.takeScreenshot(('Screenshots/Register/1440X900/Register-' + n) + '.png')
+WebUI.takeScreenshot(('Screenshots/Register/1440x900/Register-' + n) + '.png')
 
 n++
 

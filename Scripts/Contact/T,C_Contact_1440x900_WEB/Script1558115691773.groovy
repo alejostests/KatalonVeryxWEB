@@ -31,7 +31,7 @@ WebUI.takeScreenshot(('Screenshots/Contact/1440x900/Contact-' + n) + '.png')
 
 n++
 
-WebUI.scrollToElement(findTestObject('null'), 5)
+WebUI.scrollToElement(findTestObject('Contact_OR/p_2019 VERyx'), 5)
 
 WebUI.takeScreenshot(('Screenshots/Contact/1440x900/Contact-' + n) + '.png')
 

@@ -25,11 +25,21 @@ WebUI.takeScreenshot(('Screenshots/RecoverPassUsername/Responsive/Pass-' + n) + 
 
 n++
 
-WebUI.setText(findTestObject('RecoverPassUsername_OR/input_Recuperar Usuario_document'), '123')
+WebUI.setText(findTestObject('RecoverPassUsername_OR/input_Recuperar Usuario_document'), '1072670003')
 
 WebUI.takeScreenshot(('Screenshots/RecoverPassUsername/Responsive/Pass-' + n) + '.png')
 
 n++
+
+WebUI.click(findTestObject('RecoverPassUsername_OR/button_Continuar_RecuperarUsuario'))
+
+WebUI.waitForElementNotVisible(findTestObject('RecoverPassUsername_OR/button_Continuar_RecuperarUsuario'), 2)
+
+WebUI.takeScreenshot(('Screenshots/RecoverPassUsername/Responsive/Pass-' + n) + '.png')
+
+n++
+
+WebUI.click(findTestObject('RecoverPassUsername_OR/button_X'))
 
 WebUI.setText(findTestObject('RecoverPassUsername_OR/input_Recuperar Usuario_document'), '')
 

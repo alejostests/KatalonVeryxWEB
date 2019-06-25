@@ -75,7 +75,7 @@ WebUI.takeScreenshot(('Screenshots/Register/1024X768/Register-' + n) + '.png')
 
 n++
 
-WebUI.click(findTestObject('Register_OR/button_Siguiente'))
+WebUI.click(findTestObject('Register_OR/button_Siguiente01'))
 
 WebUI.scrollToElement(findTestObject('Register_OR/div_VERyx_header-line'), 5)
 
@@ -99,19 +99,25 @@ WebUI.takeScreenshot(('Screenshots/Register/1024X768/Register-' + n) + '.png')
 
 n++
 
-WebUI.click(findTestObject('Register_OR/input_Tipo de identificacin Paso2'))
+WebUI.click(findTestObject('Register_OR/input_Ciudad  _vs__search'))
 
 WebUI.takeScreenshot(('Screenshots/Register/1024X768/Register-' + n) + '.png')
 
 n++
 
-WebUI.click(findTestObject('Register_OR/li_Tarjeta de identidad_paso2'))
+WebUI.click(findTestObject('Register_OR/li_ANDES'))
 
-WebUI.selectOptionByValue(findTestObject('Register_OR/select_Patologies'), '12', true)
+WebUI.waitForElementNotPresent(findTestObject('Register_OR/p_2019 VERyx'), 2)
 
-WebUI.click(findTestObject('Register_OR/span_Firma  _icon i-pencil-edit firm-icon'))
+WebUI.click(findTestObject('Register_OR/input_Especialidad  _vs__search'))
 
-WebUI.click(findTestObject('Register_OR/canvas2'))
+WebUI.click(findTestObject('Register_OR/li_CARDIOLOGIA'))
+
+WebUI.waitForElementNotPresent(findTestObject('Register_OR/p_2019 VERyx'), 2)
+
+WebUI.click(findTestObject('Register_OR/input_Firma  _firm'))
+
+WebUI.click(findTestObject('Register_OR/canvas'))
 
 WebUI.takeScreenshot(('Screenshots/Register/1024X768/Register-' + n) + '.png')
 
@@ -122,6 +128,8 @@ WebUI.click(findTestObject('Register_OR/button_Siguiente_Firma'))
 WebUI.takeScreenshot(('Screenshots/Register/1024X768/Register-' + n) + '.png')
 
 n++
+
+WebUI.waitForElementNotPresent(findTestObject('Register_OR/p_2019 VERyx'), 2)
 
 WebUI.click(findTestObject('Register_OR/label_Acepto  poltica para manejo de datos'))
 

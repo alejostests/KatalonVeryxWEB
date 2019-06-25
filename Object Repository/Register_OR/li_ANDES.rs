@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>canvas2</name>
+   <name>li_ANDES</name>
    <tag></tag>
-   <elementGuidId>3f3937ea-d7c4-4e1a-8dae-2246a67a738d</elementGuidId>
+   <elementGuidId>ae6fed6e-3c3c-4a2a-9c7e-dcd1ed3078c4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='errors-modal___BV_modal_body_']/div/div/canvas</value>
+         <value>//div[@id='__BVID__48']/p/div/div[2]/div/div/div/ul/li[7]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,62 +17,78 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>canvas</value>
+      <value>li</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>width</name>
+      <name>role</name>
       <type>Main</type>
-      <value>0</value>
+      <value>option</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>height</name>
+      <name>class</name>
       <type>Main</type>
-      <value>0</value>
+      <value>vs__dropdown-option vs__dropdown-option--highlight</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+          ANDES
+        </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;errors-modal___BV_modal_body_&quot;)/div[@class=&quot;canvas-firm&quot;]/div[1]/canvas[1]</value>
+      <value>id(&quot;__BVID__48&quot;)/p[@class=&quot;card-text&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;text-left col-12&quot;]/div[@class=&quot;v-select-cont&quot;]/div[@class=&quot;border&quot;]/div[@class=&quot;v-select vs--open vs--single vs--searchable&quot;]/ul[@class=&quot;vs__dropdown-menu&quot;]/li[@class=&quot;vs__dropdown-option vs__dropdown-option--highlight&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='errors-modal___BV_modal_body_']/div/div/canvas</value>
+      <value>//div[@id='__BVID__48']/p/div/div[2]/div/div/div/ul/li[7]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/following::canvas[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AMALFI'])[1]/following::li[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Firma'])[1]/following::canvas[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AMAGA'])[1]/following::li[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Siguiente'])[3]/preceding::canvas[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ANGELOPOLIS'])[1]/preceding::li[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ANGOSTURA'])[1]/preceding::li[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//canvas</value>
+      <value>//li[7]</value>
    </webElementXpaths>
 </WebElementEntity>
